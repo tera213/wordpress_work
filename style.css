@@ -1,0 +1,247 @@
+/*
+Theme Name: Sample2
+Theme URL: http://sample.com
+Description: テーマの説明
+Author: TAIKI
+Version: テーマのバージョン
+Tags: テーマの特徴を表すタグ（カンマ区切り/オプション）
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
+body {
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+.site-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#top-nav {
+    position: fixed;
+    z-index: 50;
+    background: rgba(255,255,255,.9);
+    border-bottom: 1px solid #d1d1d1;
+    width: 100%;
+    padding: 30px 0;
+}
+
+nav ul {
+    float: right;
+    padding-right: 50px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 14px;
+    padding-left: 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+a:hover, .active{
+    text-decoration: underline;
+  }
+
+#top-image {
+    width: 100%;
+    height: 568px;
+    object-fit: cover;
+}
+
+.top {
+    position: relative;
+    height: 568px;
+}
+
+.top-text {
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    width: 100%;
+    color: white;
+}
+
+.top-text h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.top-text p {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+main h2 {
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sec01 h2 {
+    padding-top: 70px;
+}
+
+.text {
+    line-height: 180%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sec01 div {
+    width: 60%;
+    margin: 0 auto ;
+    padding-bottom: 80px;
+}
+
+.sec02-inner {
+    width: 100%;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+.sec02-inner .bg {
+    width: 50%;
+    float: left;
+}
+
+.bg img {
+    width: 100%;
+}
+
+.sec02-inner .text {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.sec02-inner .text div {
+    position: absolute;
+    top: 90px;
+    padding: 0 100px;
+}
+
+#sec02-2 .bg{
+    float: right;
+}
+
+#sec02-2 .text{
+    float: left;
+}
+.sec03 {
+    overflow: hidden;
+}
+
+.sec03 .sec03-innner {
+    width: 1024px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.sec03 img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.sec03-content {
+    width: 30%;
+    float: left;
+    padding: 0 1.5%;
+}
+
+.sec04 {
+    width: 100%;
+    height: 420px;
+    background: url(images/bgSec04.jpg) no-repeat 100% 100% fixed;
+    background-size: cover;
+}
+
+.sec04 .wrap {
+    width: 100%;
+    padding-top: 110px;
+}
+
+.sec04-1 {
+    float: left;
+    width: 50%;
+}
+
+.sec04-2 {
+    float: right;
+    width: 50%;
+}
+
+.sec04 .inner-text {
+    padding: 0 100px;
+    color: white;
+}
+
+.sec05 {
+    padding: 120px 0;
+    overflow: hidden;
+    
+}
+
+.sec05 .info {
+    margin: 0 auto;
+    width: 370px;
+    height: 300px;
+    padding: 0 30px;
+}
+
+
+.sec05 dt {
+    float: left;
+    clear: left;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.sec05 dd {
+    float: left;
+}
+
+dl {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sec05 .info p {
+    padding-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+
+.footer a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+
+
+
+
+
