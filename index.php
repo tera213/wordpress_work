@@ -54,33 +54,7 @@ Template Name: TOP
         </section>
         <section class="sec03">
             <div class="sec03-innner">
-                <div class="sec03-content">
-                    <h2>SERVICE</h2>
-                    <div class="img">
-                        <img src="images/circleImg01.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-                    </div>
-                </div>
-                <div class="sec03-content">
-                    <h2>MESSAGE</h2>
-                    <div class="img">
-                        <img src="images/circleImg02.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代史学の学問的方法による研究という意義であるならば意義であるならば。</p>
-                    </div>
-                </div>
-                <div class="sec03-content">
-                    <h2>STORY</h2>
-                    <div class="img">
-                        <img src="images/circleImg03.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>科学的研究というのが近代史学の学問的方法による研究という意義であるならば、これは史学の学徒の間においては一般に行われていることであるから、今さらこと新しくいう。</p>
-                    </div>
-                </div>
+                <?php dynamic_sidebar('メッセージエリア'); ?>
             </div>
             
         </section>
